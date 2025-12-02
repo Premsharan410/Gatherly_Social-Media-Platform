@@ -13,7 +13,7 @@ dotenv.config();
 
 const app = express();
 const PORT = 3000;
-const JWT_SECRET = 'mySuperSecretKey123456!';
+const JWT_SECRET = '';
 const upload = multer({ storage: multer.memoryStorage() });
 const server = http.createServer(app);
 
