@@ -2,7 +2,7 @@
 <h3 align="center">A Modern Full-Stack Social Media Platform</h3>
 
 <div align="center">
-  <p><strong>Create. Connect. Chat. Explore.</strong></p>
+  <p><strong>Where People Come Together</strong></p>
   <p>Built with 
     <code>React</code> · <code>Node.js</code> · <code>Express</code> · 
     <code>PostgreSQL</code> · <code>Supabase</code> · <code>Socket.IO</code>
