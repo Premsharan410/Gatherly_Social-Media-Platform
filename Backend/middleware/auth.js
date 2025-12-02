@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 
 // Hard-coded JWT secret; replace this with a secure key in production
-const JWT_SECRET = 'mySuperSecretKey123456!';
+const JWT_SECRET = '';
 
 function authenticateToken(req, res, next) {
   const token = req.headers['authorization']?.split(' ')[1]; // Expected format: "Bearer <token>"
