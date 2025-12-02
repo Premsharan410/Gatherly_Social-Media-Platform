@@ -9,7 +9,6 @@
   </p>
   <br/>
   <p>🔗 <strong>Live Demo:</strong> <a href="https://gatherly-lemon.vercel.app/">https://gatherly-lemon.vercel.app/</a></p>
-  <p>🔗 <strong>Backend API:</strong> <a href="https://gatherly-backend-6kfc.onrender.com/">https://gatherly-backend-6kfc.onrender.com/</a></p>
 </div>
 
 <hr/>
@@ -38,8 +37,8 @@ Images are stored securely using <strong>Supabase Storage</strong> and real-time
 <h3>📝 Posts & Feed</h3>
 <ul>
   <li>Create posts with <strong>text + image</strong></li>
-  <li>Images uploaded to Supabase Storage</li>
-  <li>View personal feed & user feed</li>
+  <li>Images uploaded </li>
+  <li>View personal feed </li>
 </ul>
 
 <h3>👥 Followers & Explore</h3>
@@ -56,7 +55,7 @@ Images are stored securely using <strong>Supabase Storage</strong> and real-time
   <li>Unread notification count</li>
   <li>Mark all as read</li>
   <li>Delete single or all notifications</li>
-  <li>Real-time updates (Socket.IO)</li>
+  <li>Real-time updates </li>
 </ul>
 
 <h3>💬 Real-Time Chat</h3>
@@ -75,7 +74,6 @@ Images are stored securely using <strong>Supabase Storage</strong> and real-time
 
 <h3>🎨 UI / UX</h3>
 <ul>
-  <li>Fully responsive layout</li>
   <li>Modern and clean design</li>
   <li>Light/Dark theme support</li>
 </ul>
@@ -97,7 +95,7 @@ Images are stored securely using <strong>Supabase Storage</strong> and real-time
 <h3>Backend</h3>
 <ul>
   <li>Node.js + Express</li>
-  <li>PostgreSQL (Supabase)</li>
+  <li>PostgreSQL </li>
   <li>Supabase Storage</li>
   <li>JWT Authentication</li>
   <li>Multer (Memory Uploads)</li>
@@ -118,77 +116,13 @@ Gatherly/
 │   └── vite.config.js
 │
 └── Backend/
-    ├── routes/
     ├── middleware/
-    ├── supabaseClient.js
     ├── db.js
     └── server.js
 </pre>
 
 <hr/>
 
-<h2>⚙️ Environment Variables</h2>
-
-<h3>Frontend (.env)</h3>
-<pre>
-VITE_BACKEND_URL=https://your-backend-url.onrender.com
-</pre>
-
-<h3>Backend (.env)</h3>
-<pre>
-DATABASE_URL=postgresql://...
-JWT_SECRET=your_jwt_secret
-SUPABASE_URL=https://xxxx.supabase.co
-SUPABASE_ANON_KEY=xxxx
-SUPABASE_SERVICE_ROLE_KEY=xxxx
-FRONTEND_URL=https://your-frontend-url.vercel.app
-</pre>
-
-<hr/>
-
-<h2>▶️ Run Locally</h2>
-
-<h3>Backend</h3>
-<pre>
-cd Backend
-npm install
-npm start
-</pre>
-
-<h3>Frontend</h3>
-<pre>
-cd Frontend
-npm install
-npm run dev
-</pre>
-
-<hr/>
-
-<h2>🚀 Deployment</h2>
-
-<h3>Frontend – Vercel</h3>
-<ul>
-  <li>Framework: Vite</li>
-  <li>Build: <code>npm run build</code></li>
-  <li>Output: <code>dist</code></li>
-</ul>
-
-<h3>Backend – Render</h3>
-<ul>
-  <li>Build: <code>npm install</code></li>
-  <li>Start: <code>node server.js</code></li>
-  <li>Add environment variables in Render Dashboard</li>
-</ul>
-
-<hr/>
-
-<h2>🧪 Quick Test Routes</h2>
-<pre>
-GET /apitest
-GET /db-test
-</pre>
-
-<hr/>
 
 <h2>📜 License</h2>
-<p>This project is licensed under the <strong>MIT License</strong>.</p>
+<p>This project is licensed under the <strong>MIT License</strong>.</p
